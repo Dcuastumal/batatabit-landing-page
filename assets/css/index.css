@@ -1,0 +1,37 @@
+/*
+1. Posicionamiento
+2. Modelo de caja (Box model)
+3. Tipografia
+4. Temas visuales 
+5. Otros
+*/
+
+@import url(./header.css);
+@import url(./main.css);
+@import url(./slider.css);
+@import url(./footer.css);
+
+:root {
+    /*Colors*/
+    --bitcoin-orange: #F7931A;
+    --soft-orange: #FFE9D5;
+    --secondary-blue: #1A9AF7;
+    --soft-blue: #E7F5FF;
+    --warm-black: #201E1C;
+    --black: #282623;
+    --grey: #BABABA;
+    --of-white: #FAF8F7;
+    --just-white: #fff;
+    --inter: 'Inter', sans-serif;;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+

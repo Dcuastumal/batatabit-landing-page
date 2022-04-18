@@ -1,0 +1,36 @@
+/* horizontal scroll - slider*/
+
+/* table with scroll*/
+.main-tables-container__slider{
+    display: flex;
+    /* gap: 50px;*/    /*Notass new gap option */
+    height: 390px;
+    overflow-x: scroll;                /*NOTASSSSS SCROLL*/
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+.main-tables-container__slider::-webkit-scrollbar {
+    background-color: var(--soft-orange);
+    height: 3px;                                       /* Notas pseudoelementos*/ 
+}
+.main-tables-container__slider::-webkit-scrollbar-thumb {
+    background-color: var(--bitcoin-orange);
+}
+
+/* plans with scroll*/
+
+.plans-container__slider {
+    display: flex;
+    /* gap: 50px; */    /* Notass new gap option*/
+    height: 316px;
+    overflow-x: scroll;                /*NOTASSSSS SCROLL*/
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+.plans-container__slider::-webkit-scrollbar {
+    background-color: var(--soft-orange);
+    height: 3px;                                       /* Notas pseudoelementos*/ 
+}
+.plans-container__slider::-webkit-scrollbar-thumb {
+    background-color: var(--bitcoin-orange);
+}
