@@ -166,7 +166,7 @@ main {
 /* Section 3 */
 /* Section 3 header */
 .main-product-detail {
-    position: relative;   /* NOTASSSS */ 
+    position: relative;   
     width: 100%;
     min-width: 320px;
     height: auto;
@@ -174,7 +174,7 @@ main {
     background-color: var(--warm-black);
 }
 .product-detail__batata-logo {
-    position: absolute; /* NOTASSS*/
+    position: absolute; 
     width: 40px;
     height: 25px;
     top: -10px;
@@ -210,7 +210,7 @@ main {
     width: 90%;
     min-width: 288px;
     max-width: 400px;
-    height: 150px; /* Si causa overflow se le pone un min-height:150px en vez de height*/
+    height: 150px; 
     margin: 15px auto;
     padding: 15px;
     background-color: var(--black);
@@ -328,7 +328,7 @@ main {
     min-width: 190px;
     max-width: 300px;
     height: 250px;
-    margin: 50px 20px 0;     /*NOTAS DE Margin scroll*/
+    margin: 50px 20px 0;     
     padding: 0 15px;
     background-color: var(--just-white);
     border-radius: 15px;
@@ -341,7 +341,7 @@ main {
     top: -15px;
     left: calc(50% - 60px);
     font-size: 1.2rem;
-    padding: 6px; /* NOTAS DE CENTRAR UN TEXTO EN UNA ETIQUETA PARRAFO*/
+    padding: 6px; 
     background-color: var(--bitcoin-orange);
     border-radius: 8px;
     color: var(--just-white);
@@ -365,7 +365,7 @@ main {
 .plan-card__price  span{
     font-size: 1.2rem;
     font-weight: 300;
-    vertical-align: 25px; /* NOTA DE SUBIR EL TEXTO*/ 
+    vertical-align: 25px;
     font-family: var(--inter);
 }
 .plan-card__saving  {
@@ -402,7 +402,7 @@ main {
     top: -15px;
     left: calc(50% - 60px);
     font-size: 1.2rem;
-    padding: 6px; /* NOTAS DE CENTRAR UN TEXTO EN UNA ETIQUETA PARRAFO*/
+    padding: 6px; 
     background-color: var(--secondary-blue);
     border-radius: 8px;
     color: var(--just-white);
@@ -417,7 +417,7 @@ main {
     min-width: 190px;
     max-width: 300px;
     height: 250px;
-    margin: 50px 20px 0; /*NOTAS DE AUTO EXCEDENTE*/
+    margin: 50px 20px 0;
     padding: 0 15px;
     background-color: var(--black);
     border-radius: 15px;
@@ -430,7 +430,7 @@ main {
     top: -15px;
     left: calc(50% - 60px);
     font-size: 1.2rem;
-    padding: 6px; /* NOTAS DE CENTRAR UN TEXTO EN UNA ETIQUETA PARRAFO*/
+    padding: 6px; 
     background-color: var(--grey);
     border-radius: 8px;
     color: var(--black);
@@ -454,7 +454,7 @@ main {
 .plan-card__price-limited  span{
     font-size: 1.2rem;
     font-weight: 300;
-    vertical-align: 25px; /* NOTA DE SUBIR EL TEXTO*/ 
+    vertical-align: 25px; 
     font-family: var(--inter);
 }
 .plan-card__ca-limited {
